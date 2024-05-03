@@ -94,7 +94,7 @@ if st.sidebar.button('Submit'):
         best_bowling_average = best_bowling_average[best_bowling_average['Average'] != 0]  # Filter non-zero averages
         best_bowling_average = best_bowling_average.sort_values(by='Average').reset_index(drop=True)
         best_bowling_average.index += 1  # Start numbering from 1
-        fig_best_avg = px.bar(best_bowling_average, x='Name', y='Average', title='Best Bowling Average')
+        fig_best_avg = px.bar(best_bowling_average, x='Name', y='Average', title='Bowling Averages')
         st.plotly_chart(fig_best_avg, use_container_width=True)
 
         # Table of Number of Four Wicket Hauls by Each Player
