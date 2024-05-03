@@ -22,74 +22,41 @@ def load_batting_data():
 bowling_df = load_bowling_data()
 batting_df = load_batting_data()
 
-# Ensure this index adjustment is reflected throughout your app wherever these dataframes are used.
-
-
-
-
-
-
-
-
-
 # Sidebar filters
 st.sidebar.header('Filters')
 analysis_option = st.sidebar.selectbox('Analysis Option', ['Bowling Stats', 'Batting Stats'])
-
 country_list = list(bowling_df['Country'].unique())
-
 country = st.sidebar.selectbox("Select Country", country_list)
 
-# Function to filter bowling data
-def filter_bowling_data(df):
-    if country:
-        df2 = df[df['Country'].str.contains(country, case=False)]
-    else:
-        df2 = df  # Return original dataframe if no country selected
-    return df2
+# Function to filter data based on country and case sensitivity
+def filter_data(df, country):
+    return df[df['Country'].str.contains(country, case=False)] if country else df
 
-# Function to filter batting data
-def filter_batting_data(df):
-    if country:
-        df2 = df[df['Country'].str.contains(country, case=False)]
-    else:
-        df2 = df  # Return original dataframe if no country selected
-    return df2
-
-# Function to filter batting data by country
-def filter_batting_data_by_country(df, country):
-    if country:
-        return df[df['Country'] == country]
-    else:
-        return df
-
+# Visualization and analysis upon button press
 if st.sidebar.button('Submit'):
     if analysis_option == 'Bowling Stats':
-        filtered_bowling_df = filter_bowling_data(bowling_df)
+        filtered_bowling_df = filter_data(bowling_df, country)
+        filtered_bowling_df.index.name = 'Position in Purple Cap List'
         st.write(filtered_bowling_df)
 
         # Visualizations for Bowling Stats
-        st.subheader('**Bowling Statistics Visualizations**')
+        st.markdown('### Bowling Statistics Visualizations')
 
         # Pie chart of Wickets distribution by Country
-        st.write("**Pie chart of Wickets distribution by Country:**")
-        wickets_by_country = bowling_df.groupby("Country")["Wickets"].sum().reset_index()
-        fig = px.pie(wickets_by_country, values='Wickets', names='Country', title='Wickets distribution by Country')
+        wickets_by_country = filtered_bowling_df.groupby("Country")["Wickets"].sum().reset_index()
+        fig = px.pie(wickets_by_country, values='Wickets', names='Country', title='Wickets Distribution by Country')
         st.plotly_chart(fig, use_container_width=True)
 
         # Pie chart of Wickets distribution by Bowler
-        st.write("**Pie chart of Wickets distribution by Bowler:**")
         wickets_by_bowler = filtered_bowling_df.groupby("Name")["Wickets"].sum().reset_index()
-        fig = px.pie(wickets_by_bowler, values='Wickets', names='Name', title='Wickets distribution by Bowler')
+        fig = px.pie(wickets_by_bowler, values='Wickets', names='Name', title='Wickets Distribution by Bowler')
         st.plotly_chart(fig, use_container_width=True)
 
         # Bar plot Showing Wickets Taken by Players
-        st.write("**Bar plot Showing Wickets Taken by Players:**")
         fig_bar = px.bar(filtered_bowling_df, x='Name', y='Wickets', title='Wickets Taken by Players')
         st.plotly_chart(fig_bar, use_container_width=True)
 
         # Best Bowling Average bar plot
-        st.subheader('**Bowling Averages of Players**')
         best_bowling_average = filtered_bowling_df[['Name', 'Average']].copy()
         best_bowling_average = best_bowling_average[best_bowling_average['Average'] != 0]  # Filter non-zero averages
         best_bowling_average = best_bowling_average.sort_values(by='Average').reset_index(drop=True)
@@ -97,44 +64,19 @@ if st.sidebar.button('Submit'):
         fig_best_avg = px.bar(best_bowling_average, x='Name', y='Average', title='Bowling Averages')
         st.plotly_chart(fig_best_avg, use_container_width=True)
 
-        # Table of Number of Four Wicket Hauls by Each Player
-        st.subheader('**Number of Four Wicket Hauls by Each Player**')
-        four_wickets_by_player = filtered_bowling_df[['Name', 'Four_wickets']].copy()
-        four_wickets_by_player = four_wickets_by_player[four_wickets_by_player['Four_wickets'] != 0]  # Filter non-zero four wickets
-        four_wickets_by_player.index += 1  # Start numbering from 1
-        st.write(four_wickets_by_player)
-
-        # Table of Number of Five Wicket Hauls by Each Player
-        st.subheader('**Number of Five Wicket Hauls by Each Player**')
-        five_wickets_by_player = filtered_bowling_df[['Name', 'Five_wickets']].copy()
-        five_wickets_by_player = five_wickets_by_player[five_wickets_by_player['Five_wickets'] != 0]  # Filter non-zero five wickets
-        five_wickets_by_player.index += 1  # Start numbering from 1
-        st.write(five_wickets_by_player)
-
-        # Table of Top Economical Players
-        st.subheader('**Top Economical Players**')
-        top_economical_players = filtered_bowling_df[['Name', 'Economy']].copy()
-        top_economical_players = top_economical_players[top_economical_players['Economy'] != 0]  # Filter non-zero economy
-        top_economical_players = top_economical_players.sort_values(by='Economy').reset_index(drop=True)
-        top_economical_players.index += 1  # Start numbering from 1
-        st.write(top_economical_players)
-
-        # Correlation Matrix for Bowling Stats
-        st.subheader('**Correlation Matrix for Bowling Stats:**')
-        bowling_heatmap = filtered_bowling_df.select_dtypes(include=['float64', 'int64']).corr()
-        st.write(bowling_heatmap)
-
     elif analysis_option == 'Batting Stats':
-        filtered_batting_df = filter_batting_data(batting_df)
+        filtered_batting_df = filter_data(batting_df, country)
+        filtered_batting_df.index.name = 'Position in Orange Cap List'
         st.write(filtered_batting_df)
 
-        # Orange Cap Pie Chart
-        st.subheader('**Orange Cap Pie Chart**')
+        # Visualizations for Batting Stats
+        st.markdown('### Batting Statistics Visualizations')
 
         # Pie chart of Runs distribution by Player
-        runs_distribution_by_player = filtered_batting_df.groupby("Name")["Runs"].sum().reset_index()
-        fig = px.pie(runs_distribution_by_player, values='Runs', names='Name', title='Runs distribution by Player')
+        runs_by_player = filtered_batting_df.groupby("Name")["Runs"].sum().reset_index()
+        fig = px.pie(runs_by_player, values='Runs', names='Name', title='Runs Distribution by Player')
         st.plotly_chart(fig, use_container_width=True)
+
 
         # Bar plot of Bar Plot Showing Runs Scored by Players
         st.subheader('**Bar Plot Showing Runs Scored by Players**')
