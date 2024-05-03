@@ -69,6 +69,27 @@ if st.sidebar.button('Submit'):
         fig = px.bar(filtered_batting_df, x='Name', y='Runs', title='Runs Scored')
         st.plotly_chart(fig, use_container_width=True)
 
+# Compare Players functionality
+if analysis_option == 'Batting Stats':
+    st.sidebar.header('Compare Batsmen')
+    players_to_compare = st.sidebar.multiselect('Select Batsmen', batting_df['Name'].unique())
+
+    if st.sidebar.button('Compare Batsmen'):
+        comparison_df = batting_df[batting_df['Name'].isin(players_to_compare)].reset_index(drop=True)
+        comparison_df.index += 1  # Start numbering from 1
+        st.markdown('### Comparison of Batting Statistics')
+        st.write(comparison_df)
+
+if analysis_option == 'Bowling Stats':
+    st.sidebar.header('Compare Bowlers')
+    bowlers_to_compare = st.sidebar.multiselect('Select Bowlers', bowling_df['Name'].unique())
+
+    if st.sidebar.button('Compare Bowlers'):
+        comparison_bowlers_df = bowling_df[bowling_df['Name'].isin(bowlers_to_compare)].reset_index(drop=True)
+        comparison_bowlers_df.index += 1  # Start numbering from 1
+        st.markdown('### Comparison of Bowling Statistics')
+        st.write(comparison_bowlers_df)
+
 # Set consistent title size for all graphs and markdown headers
 def set_styles():
     st.markdown("""
