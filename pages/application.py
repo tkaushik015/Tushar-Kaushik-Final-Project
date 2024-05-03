@@ -7,21 +7,27 @@ import plotly.express as px
 st.set_page_config(layout="wide")
 
 # Load data
-@st.cache
 def load_bowling_data():
-    df = pd.read_csv('2023_bowling.csv')
-    df.index += 1  # Adjust index to start from 1
-    return df
+    try:
+        df = pd.read_csv('2023_bowling.csv')
+        df.index += 1  # Adjust index to start from 1
+        return df
+    except FileNotFoundError:
+        st.error("Bowling data file not found.")
+        return None
 
 @st.cache
 def load_batting_data():
-    df = pd.read_csv('2023_batting.csv')
-    df.index += 1  # Adjust index to start from 1
-    return df
+    try:
+        df = pd.read_csv('2023_batting.csv')
+        df.index += 1  # Adjust index to start from 1
+        return df
+    except FileNotFoundError:
+        st.error("Batting data file not found.")
+        return None
 
 bowling_df = load_bowling_data()
 batting_df = load_batting_data()
-
 # Ensure this index adjustment is reflected throughout your app wherever these dataframes are used.
 
 
