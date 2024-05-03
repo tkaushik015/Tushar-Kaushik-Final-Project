@@ -63,19 +63,18 @@ def filter_batting_data_by_country(df, country):
     else:
         return df
 
-# Visualization and analysis upon button press
 if st.sidebar.button('Submit'):
     if analysis_option == 'Bowling Stats':
-        filtered_bowling_df = filter_data(bowling_df, country)
-        filtered_bowling_df.index.name = 'Position in Purple Cap List'
+        filtered_bowling_df = filter_bowling_data(bowling_df)
         st.write(filtered_bowling_df)
 
         # Visualizations for Bowling Stats
-        st.markdown('### Bowling Statistics Visualizations')
+        st.subheader('**Bowling Statistics Visualizations**')
 
         # Pie chart of Wickets distribution by Country
-        wickets_by_country = filtered_bowling_df.groupby("Country")["Wickets"].sum().reset_index()
-        fig = px.pie(wickets_by_country, values='Wickets', names='Country', title='Wickets Distribution by Country')
+        st.write("**Pie chart of Wickets distribution by Country:**")
+        wickets_by_country = bowling_df.groupby("Country")["Wickets"].sum().reset_index()
+        fig = px.pie(wickets_by_country, values='Wickets', names='Country', title='Wickets distribution by Country')
         st.plotly_chart(fig, use_container_width=True)
 
         # Pie chart of Wickets distribution by Bowler
