@@ -89,7 +89,7 @@ if st.sidebar.button('Submit'):
         st.plotly_chart(fig_bar, use_container_width=True)
 
         # Best Bowling Average bar plot
-        st.subheader('**Best Bowling Average**')
+        st.subheader('**Bowling Averages of Players**')
         best_bowling_average = filtered_bowling_df[['Name', 'Average']].copy()
         best_bowling_average = best_bowling_average[best_bowling_average['Average'] != 0]  # Filter non-zero averages
         best_bowling_average = best_bowling_average.sort_values(by='Average').reset_index(drop=True)
