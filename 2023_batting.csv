@@ -120,7 +120,7 @@ Akash Deep,2,1,0,17,17,17,8,212.5,0,0,0,2,1,Royal Challengers Bangalore,Royal Ch
 Akeal Hosein,1,1,1,16,16*,0,10,160,0,0,0,1,1,None,Sunrisers Hyderabad,West Indies
 Pravin Dubey,1,1,0,16,16,16,20,80,0,0,0,2,0,None,Delhi Capitals,India
 Naveen-ul-Haq,8,3,2,16,13,16,21,76.19,0,0,0,2,0,None,Lucknow Super Giants,Afghanistan
-Yash Dhull,4,3,0,16,13,5.33,23,69.56,0,0,0,1,0,None,None,India
+Yash Dhull,4,3,0,16,13,5.33,23,69.56,0,0,0,1,0,Delhi Capitals,Delhi Capitals,India
 Trent Boult,10,4,3,16,15,16,14,114.28,0,0,0,1,1,Rajasthan Royals,Rajasthan Royals,New Zealand
 Ben Stokes,2,2,0,15,8,7.5,14,107.14,0,0,0,2,0,None,Chennai Super Kings,England
 Mandeep Singh,3,3,0,14,12,4.66,16,87.5,0,0,1,0,1,Delhi Capitals,Kolkata Knight Riders,India
@@ -130,9 +130,9 @@ Kedar Jadhav,2,1,1,12,12*,0,10,120,0,0,0,1,0,None,None,India
 Karan Sharma,2,2,0,12,9,6,21,57.14,0,0,0,0,0,None,Lucknow Super Giants,India
 Jason Holder,8,3,1,12,11,6,11,109.09,0,0,1,0,1,Lucknow Super Giants,Kolkata Knight Riders,West Indies
 Mark Wood,4,2,1,11,10*,11,5,220,0,0,0,1,1,None,Lucknow Super Giants,England
-Sanvir Singh,2,2,1,11,7,11,9,122.22,0,0,0,1,1,None,None,India
+Sanvir Singh,2,2,1,11,7,11,9,122.22,0,0,0,1,1,None,Delhi Capitals,India
 Joe Root,3,1,0,10,10,10,15,66.66,0,0,0,1,0,None,Rajasthan Royals,England
-Manan Vohra,1,1,0,10,10,10,11,90.9,0,0,0,1,0,None,None,India
+Manan Vohra,1,1,0,10,10,10,11,90.9,0,0,0,1,0,Royal Challengers Bangalore,Royal Challengers Bangalore,India
 Adam Zampa,6,3,0,10,7,3.33,16,62.5,0,0,0,0,0,None,Rajasthan Royals,Australia
 Jaydev Unadkat,3,1,0,9,9,9,7,128.57,0,0,0,1,0,Mumbai Indians,Lucknow Super Giants,India
 Noor Ahmad,13,3,1,8,7*,4,9,88.88,0,0,1,1,0,None,Gujarat Titans,Afghanistan
@@ -141,7 +141,7 @@ Rovman Powell,3,3,0,7,4,2.33,9,77.77,0,0,0,1,0,Delhi Capitals,Delhi Capitals,Wes
 Mukesh Kumar,10,3,3,7,6*,0,9,77.77,0,0,0,0,0,None,Delhi Capitals,India
 Kumar Kartikeya Singh,8,1,0,6,6,6,7,85.71,0,0,0,1,0,None,Mumbai Indians,India
 Jason Behrendorff,12,2,2,6,3*,0,9,66.66,0,0,0,0,0,None,Mumbai Indians,Australia
-Chris Jordan,6,2,0,6,4,3,12,50,0,0,0,0,0,None,None,England
+Chris Jordan,6,2,0,6,4,3,12,50,0,0,0,0,0,None,Royal Challengers Bangalore,England
 Harshal Patel,14,2,0,6,6,3,6,100,0,0,1,0,1,Royal Challengers Bangalore,Royal Challengers Bangalore,India
 Mohammed Shami,17,2,0,5,5,2.5,6,83.33,0,0,1,1,0,Gujarat Titans,Gujarat Titans,India
 Litton Das,1,1,0,4,4,4,4,100,0,0,0,1,0,None,Kolkata Knight Riders,Bangladesh
