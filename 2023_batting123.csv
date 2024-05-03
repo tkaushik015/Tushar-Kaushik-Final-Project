@@ -88,7 +88,7 @@ Washington Sundar,5,1,24*,60,100,0,0,0,6,0,Sunrisers Hyderabad,Sunrisers Hyderab
 Michael Bracewell,4,2,26,47,123.4,0,0,0,6,1,Not in IPL,Royal Challengers Bangalore,New Zealand
 Shahbaz Ahmed ,4,0,30,62,85.48,0,0,0,4,1,Royal Challengers Bangalore,Royal Challengers Bangalore,India
 Harpreet Brar,8,2,17*,41,126.82,0,0,1,5,2,Punjab Kings,Punjab Kings,India
-Rupal Patel,4,1,23,43,113.95,0,0,0,3,1,Not in IPL,Not in IPL,India
+Rupal Patel,4,1,23,43,113.95,0,0,0,3,1,Punjab Kings,Punjab Kings,India
 Bhuvneshwar Kumar,6,3,27,47,89.36,0,0,0,4,0,Sunrisers Hyderabad,Sunrisers Hyderabad,India
 Shahbaz Ahmed,6,2,20*,39,107.69,0,0,0,3,1,Royal Challengers Bangalore,Royal Challengers Bangalore,India
 Glenn Phillips,5,0,25,22,177.27,0,0,1,2,4,Sunrisers Hyderabad,Sunrisers Hyderabad,New Zealand
@@ -106,7 +106,7 @@ Piyush Chawla,4,2,18,22,113.63,0,0,1,1,1,None,Mumbai Indians,India
 Hrithik Shokeen,3,2,18*,17,135.29,0,0,0,4,0,Not in IPL,Mumbai Indians,India
 Anukul Roy,4,2,13*,19,121.05,0,0,1,3,0,Kolkata Knight Riders,Kolkata Knight Riders,India
 Adil Rashid,2,0,18,16,137.5,0,0,0,2,1,None,Sunrisers Hyderabad,England
-Pradeep Garg,2,0,12,23,95.65,0,0,0,1,0,Not in IPL,Not in IPL,India
+Pradeep Garg,2,0,12,23,95.65,0,0,0,1,0,Not in IPL,Punjab Kings,India
 David Wiese,3,2,12*,11,190.9,0,0,0,0,3,Not in IPL,Kolkata Knight Riders,South Africa
 Mayank Markande,3,3,18*,13,161.53,0,0,0,2,1,Punjab Kings,Sunrisers Hyderabad,India
 Sunil Narine,10,3,7*,25,84,0,0,3,2,1,Kolkata Knight Riders,Kolkata Knight Riders,West Indies
@@ -116,23 +116,23 @@ Amit Mishra,1,0,19,30,63.33,0,0,0,2,0,Not in IPL,Lucknow Super Giants,India
 Umran Malik,2,1,19*,8,237.5,0,0,1,1,2,Sunrisers Hyderabad,Sunrisers Hyderabad,India
 Umesh Yadav,5,3,6*,18,105.55,0,0,0,1,0,Kolkata Knight Riders,Kolkata Knight Riders,India
 Arshad Khan,3,1,15*,15,120,0,0,0,0,1,None,Mumbai Indians,Afghanistan
-Akash Deep,1,0,17,8,212.5,0,0,0,2,1,Royal Challengers Bangalore,None,India
-Akeal Hosein,1,1,16*,10,160,0,0,0,1,1,None,None,West Indies
+Akash Deep,1,0,17,8,212.5,0,0,0,2,1,Royal Challengers Bangalore,Punjab Kings,India
+Akeal Hosein,1,1,16*,10,160,0,0,0,1,1,None,Punjab Kings,West Indies
 Pravin Dubey,1,0,16,20,80,0,0,0,2,0,None,Delhi Capitals,India
 Naveen-ul-Haq,3,2,13,21,76.19,0,0,0,2,0,None,Lucknow Super Giants,Afghanistan
-Yash Dhull,3,0,13,23,69.56,0,0,0,1,0,None,None,India
+Yash Dhull,3,0,13,23,69.56,0,0,0,1,0,Delhi Capitals,Delhi Capitals,India
 Trent Boult,4,3,15,14,114.28,0,0,0,1,1,Rajasthan Royals,Rajasthan Royals,New Zealand
 Ben Stokes,2,0,8,14,107.14,0,0,0,2,0,None,Chennai Super Kings,England
 Mandeep Singh,3,0,12,16,87.5,0,0,1,0,1,Delhi Capitals,Kolkata Knight Riders,India
 Arjun Tendulkar,1,0,13,9,144.44,0,0,0,0,1,None,Mumbai Indians,India
 Vyshak Vijay Kumar,2,1,13*,9,144.44,0,0,1,0,1,None,Royal Challengers Bangalore,India
-Kedar Jadhav,1,1,12*,10,120,0,0,0,1,0,None,None,India
-Karan Sharma,2,0,9,21,57.14,0,0,0,0,0,None,None,India
+Kedar Jadhav,1,1,12*,10,120,0,0,0,1,0,Chennai Super Kings,Chennai Super Kings,India
+Karan Sharma,2,0,9,21,57.14,0,0,0,0,0,Chennai Super Kings,Chennai Super Kings,India
 Jason Holder,3,1,11,11,109.09,0,0,1,0,1,Lucknow Super Giants,Kolkata Knight Riders,West Indies
 Mark Wood,2,1,10*,5,220,0,0,0,1,1,None,Lucknow Super Giants,England
-Sanvir Singh,2,1,7,9,122.22,0,0,0,1,1,None,None,India
+Sanvir Singh,2,1,7,9,122.22,0,0,0,1,1,None,Punjab Kings,India
 Joe Root,1,0,10,15,66.66,0,0,0,1,0,None,Rajasthan Royals,England
-Manan Vohra,1,0,10,11,90.9,0,0,0,1,0,None,None,India
+Manan Vohra,1,0,10,11,90.9,0,0,0,1,0,Punjab Kings,Punjab Kings,India
 Adam Zampa,3,0,7,16,62.5,0,0,0,0,0,None,Rajasthan Royals,Australia
 Jaydev Unadkat,1,0,9,7,128.57,0,0,0,1,0,Mumbai Indians,Lucknow Super Giants,India
 Noor Ahmad,3,1,7*,9,88.88,0,0,1,1,0,None,Gujarat Titans,Afghanistan
@@ -141,11 +141,11 @@ Rovman Powell,3,0,4,9,77.77,0,0,0,1,0,Delhi Capitals,Delhi Capitals,West Indies
 Mukesh Kumar,3,3,6*,9,77.77,0,0,0,0,0,None,Delhi Capitals,India
 Kumar Kartikeya Singh,1,0,6,7,85.71,0,0,0,1,0,None,Mumbai Indians,India
 Jason Behrendorff,2,2,3*,9,66.66,0,0,0,0,0,None,Mumbai Indians,Australia
-Chris Jordan,2,0,4,12,50,0,0,0,0,0,None,None,England
+Chris Jordan,2,0,4,12,50,0,0,0,0,0,None,Punjab Kings,England
 Harshal Patel,2,0,6,6,100,0,0,1,0,1,Royal Challengers Bangalore,Royal Challengers Bangalore,India
 Mohammed Shami,2,0,5,6,83.33,0,0,1,1,0,Gujarat Titans,Gujarat Titans,India
 Litton Das,1,0,4,4,100,0,0,0,1,0,None,Kolkata Knight Riders,Bangladesh
 Jofra Archer,2,2,3*,4,100,0,0,0,0,0,None,Mumbai Indians,England
 Chetan Sakariya,2,1,4,6,66.66,0,0,0,1,0,Delhi Capitals,Delhi Capitals,India
-Karan Vir Sharma,2,0,2,5,60,0,0,0,0,0,None,None,India
+Karan Vir Sharma,2,0,2,5,60,0,0,0,0,0,None,Punjab Kings,India
 Vaibhav Arora,2,2*,2,150,0,0,0,0,0,Punjab Kings,Kolkata Knight,India,
