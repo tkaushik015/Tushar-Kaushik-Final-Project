@@ -1,7 +1,7 @@
 import streamlit as st
 import pandas as pd
 import plotly.express as px
-import os
+
 
 # Set page width
 st.set_page_config(layout="wide")
@@ -9,29 +9,28 @@ st.set_page_config(layout="wide")
 # Load data
 @st.cache
 def load_bowling_data():
-    try:
-        df = pd.read_csv('2023_bowling.csv')
-        df.index += 1  # Adjust index to start from 1
-        return df
-    except FileNotFoundError:
-        st.error("Bowling data file not found.")
-        return None
+    df = pd.read_csv('2023_bowling.csv')
+    df.index += 1  # Adjust index to start from 1
+    return df
 
 @st.cache
 def load_batting_data():
-    try:
-        df = pd.read_csv('2023_batting.csv')
-        df.index += 1  # Adjust index to start from 1
-        return df
-    except FileNotFoundError:
-        st.error("Batting data file not found.")
-        return None
+    df = pd.read_csv('2023_batting.csv')
+    df.index += 1  # Adjust index to start from 1
+    return df
 
 bowling_df = load_bowling_data()
 batting_df = load_batting_data()
 
-if bowling_df is None or batting_df is None:
-    st.stop()
+# Ensure this index adjustment is reflected throughout your app wherever these dataframes are used.
+
+
+
+
+
+
+
+
 
 # Sidebar filters
 st.sidebar.header('Filters')
