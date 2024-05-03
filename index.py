@@ -9,7 +9,7 @@ st.markdown("**1. Name:** Tushar Kaushik")
 
 
 
-st.markdown("**2. An explanation of how to use your webapp:** what interactivity there is, what the plots/charts mean, what your conclusions were, etc:")
+st.markdown("**2. An explanation of how to use your webapp: what interactivity there is, what the plots/charts mean, what your conclusions were, etc:")**
 st.write("Ans: The web app focuses on IPL, a T20 cricket league in India, specifically analyzing data for the 2023 season. It provides insights into player performance, including the Orange Cap for most runs and the Purple Cap for most wickets. Users can select between Batting Stats and Bowling Stats, filter data by country, and visualize statistics through pie charts, box plots, tables, and correlation matrices. After selecting options and submitting, users can explore player statistics and compare multiple players using a dropdown menu. To access the webapp, select Batting Stats/ Bowling Stats and then click Submit button. To compare players, select player names in the dropdown and then click on Compare button")
 
 
