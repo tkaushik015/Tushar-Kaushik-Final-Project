@@ -2,7 +2,7 @@ Name,Inns,Balls,Overs,Maidens,Runs,Wickets,Average,Economy,Strike_Rate,Four_wick
 Mohammed Shami,17,390,65,2,522,28,18.64,8.03,13.92,2,0,Gujarat Titans,Gujarat Titans,India
 Mohit Sharma,14,265,44.1,0,361,27,13.37,8.17,9.81,2,1,Not in IPL,Gujarat Titans,India
 Rashid Khan,17,402,67,0,552,27,20.44,8.23,14.88,1,0,Gujarat Titans,Gujarat Titans,Afghanistan
-Piyush Chawla,16,366,61,0,495,22,22.5,8.11,16.63,0,0,Not in IPL,Not in IPL,India
+Piyush Chawla,16,366,61,0,495,22,22.5,8.11,16.63,0,0,Chennai Super Kings,Chennai Super Kings,India
 Yuzvendra Chahal,14,317,52.5,0,432,21,20.57,8.17,15.09,3,0,Rajasthan Royals,Rajasthan Royals,India
 Tushar Deshpande,16,341,56.5,0,564,21,26.85,9.92,16.23,0,0,Chennai Super Kings,Chennai Super Kings,India
 Varun Chakaravarthy,14,316,52.4,1,429,20,21.45,8.14,15.8,1,0,Kolkata Knight Riders,Kolkata Knight Riders,India
@@ -13,25 +13,25 @@ Arshdeep Singh,14,305,50.5,0,493,17,29,9.69,17.94,1,0,Punjab Kings,Punjab Kings,
 Noor Ahmad,13,283,47.1,0,369,16,23.06,7.82,17.68,0,0,Not in IPL,Gujarat Titans,Afghanistan
 Ravi Bishnoi,14,303,50.3,0,391,16,24.43,7.74,18.93,0,0,Lucknow Super Giants,Lucknow Super Giants,India
 Bhuvneshwar Kumar,14,306,51,1,425,16,26.56,8.33,19.12,0,1,Sunrisers Hyderabad,Sunrisers Hyderabad,India
-Akash Madhwal,8,153,25.3,0,219,14,15.64,8.58,10.92,1,1,Not in IPL,Not in IPL,India
+Akash Madhwal,8,153,25.3,0,219,14,15.64,8.58,10.92,1,1,Lucknow Super Giants,Lucknow Super Giants,India
 Ravichandran Ashwin,13,294,49,0,368,14,26.28,7.51,21,0,0,Rajasthan Royals,Rajasthan Royals,India
 Jason Behrendorff,12,252,42,0,387,14,27.64,9.21,18,0,0,Not in IPL,Mumbai Indians,Australia
 Harshal Patel,13,282,47,0,454,14,32.42,9.65,20.14,0,0,Royal Challengers Bangalore,Royal Challengers Bangalore,India
-Yash Thakur,9,191,31.5,0,289,13,22.23,9.07,14.69,1,0,Not in IPL,Not in IPL,India
+Yash Thakur,9,191,31.5,0,289,13,22.23,9.07,14.69,1,0,Punjab Kings,Royal Challengers Bangalore,India
 Deepak Chahar,10,204,34,0,297,13,22.84,8.73,15.69,0,0,Chennai Super Kings,Chennai Super Kings,India
 Trent Boult,10,228,38,3,312,13,24,8.21,17.53,0,0,Rajasthan Royals,Rajasthan Royals,New Zealand
 Nathan Ellis,10,228,38,0,339,13,26.07,8.92,17.53,1,0,Punjab Kings,Punjab Kings,Australia
 Mitchell Marsh,8,121,20.1,1,170,12,14.16,8.42,10.08,1,0,Delhi Capitals,Delhi Capitals,Australia
 Mayank Markande,10,228,38,0,300,12,25,7.89,19,1,0,Not in IPL,Mumbai Indians,India
 Mark Wood,4,96,16,1,130,11,11.81,8.12,8.72,0,1,Lucknow Super Giants,Lucknow Super Giants,England
-Naveen-ul-Haq,7,168,28,0,219,11,19.9,7.82,15.27,1,0,Not in IPL,Not in IPL,Afghanistan
+Naveen-ul-Haq,7,168,28,0,219,11,19.9,7.82,15.27,1,0,Lucknow Super Giants,Lucknow Super Giants,Afghanistan
 Axar Patel,13,282,47,0,338,11,30.72,7.19,25.63,0,0,Delhi Capitals,Delhi Capitals,India
 Sunil Narine,14,288,48,0,383,11,34.81,7.97,26.18,0,0,Kolkata Knight Riders,Kolkata Knight Riders,West Indies
 Maheesh Theekshana,13,294,49,1,392,11,35.63,8,26.72,0,0,Chennai Super Kings,Chennai Super Kings,Sri Lanka
 Ishant Sharma,8,150,25,0,206,10,20.6,8.24,15,0,0,Not in IPL,Delhi Capitals,India
-Karan Sharma,7,129,21.3,0,223,10,22.3,10.37,12.9,0,0,Not in IPL,Not in IPL,India
+Karan Sharma,7,129,21.3,0,223,10,22.3,10.37,12.9,0,0,Not in IPL,Lucknow Super Giants,India
 Marco Jansen,8,162,27,1,267,10,26.7,9.88,16.2,0,0,Sunrisers Hyderabad,Sunrisers Hyderabad,South Africa
-Suyash Sharma,11,234,39,0,321,10,32.1,8.23,23.4,0,0,Not in IPL,Not in IPL,India
+Suyash Sharma,11,234,39,0,321,10,32.1,8.23,23.4,0,0,Not in IPL,Delhi Capitals,India
 Kuldeep Yadav,14,294,49,1,361,10,36.1,7.36,29.4,0,0,Delhi Capitals,Delhi Capitals,India
 Anrich Nortje,10,240,40,0,364,10,36.4,9.1,24,0,0,Delhi Capitals,Delhi Capitals,South Africa
 Sandeep Sharma,12,276,46,0,396,10,39.6,8.6,27.6,0,0,Punjab Kings,Punjab Kings,India
@@ -49,7 +49,7 @@ Avesh Khan,9,174,29,0,283,8,35.37,9.75,21.75,0,0,Lucknow Super Giants,Lucknow Su
 Rahul Chahar,14,298,49.4,0,385,8,48.12,7.75,37.25,0,0,Punjab Kings,Punjab Kings,India
 Amit Mishra,7,114,19,0,149,7,21.28,7.84,16.28,0,0,Not in IPL,Lucknow Super Giants,India
 Andre Russell,9,91,15.1,0,172,7,24.57,11.34,13,0,0,Kolkata Knight Riders,Kolkata Knight Riders,West Indies
-Riley Meredith,5,118,19.4,0,207,7,29.57,10.52,16.85,0,0,Mumbai Indians,None,Australia
+Riley Meredith,5,118,19.4,0,207,7,29.57,10.52,16.85,0,0,Mumbai Indians,Delhi Capitals,Australia
 Shardul Thakur,9,126,21,0,220,7,31.42,10.47,18,0,0,Delhi Capitals,Kolkata Knight Riders,India
 Alzarri Joseph,7,144,24,0,225,7,32.14,9.37,20.57,0,0,Gujarat Titans,Gujarat Titans,West Indies
 Kagiso Rabada,6,138,23,0,232,7,33.14,10.08,19.71,0,0,Punjab Kings,Punjab Kings,South Africa
@@ -84,9 +84,9 @@ K. M. Asif,4,84,14,0,138,3,46,9.85,28,0,0,Chennai Super Kings,Chennai Super King
 Washington Sundar,7,106,17.4,0,146,3,48.66,8.26,35.33,0,0,Sunrisers Hyderabad,Sunrisers Hyderabad,India
 Hrithik Shokeen,8,114,19,0,187,3,62.33,9.84,38,0,0,None,Mumbai Indians,India
 Hardik Pandya,11,150,25,0,228,3,76,9.12,50,0,0,Gujarat Titans,Gujarat Titans,India
-Chris Jordan,6,132,22,1,237,3,79,10.77,44,0,0,Chennai Super Kings,None,England
+Chris Jordan,6,132,22,1,237,3,79,10.77,44,0,0,Chennai Super Kings,Delhi Capitals,England
 Adil Rashid,2,42,7,0,56,2,28,8,21,0,0,Not in IPL,Sunrisers Hyderabad,England
-Kulwant Khejroliya,2,26,4.2,0,64,2,32,14.76,13,0,0,Not in IPL,None,India
+Kulwant Khejroliya,2,26,4.2,0,64,2,32,14.76,13,0,0,Not in IPL,Delhi Capitals,India
 Kartik Tyagi,2,42,7,0,68,2,34,9.71,21,0,0,Sunrisers Hyderabad,Sunrisers Hyderabad,India
 Tim Southee,2,36,6,0,79,2,39.5,13.16,18,0,0,Kolkata Knight Riders,Kolkata Knight Riders,New Zealand
 Liam Livingstone,5,42,7,0,94,2,47,13.42,21,0,0,Punjab Kings,Punjab Kings,England
