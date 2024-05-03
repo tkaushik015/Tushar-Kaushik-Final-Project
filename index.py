@@ -4,18 +4,18 @@ import streamlit as st
 
 
 
-st.markdown("**1. Name:** Tushar Kaushik")
+st.markdown("**1. Name: Tushar Kaushik**")
 
 
 
 
 st.markdown("**2. An explanation of how to use your webapp: what interactivity there is, what the plots/charts mean, what your conclusions were, etc:**")
-st.write("Ans: The web app focuses on IPL, a T20 cricket league in India, specifically analyzing data for the 2023 season. It provides insights into player performance, including the Orange Cap for most runs and the Purple Cap for most wickets. Users can select between Batting Stats and Bowling Stats, filter data by country, and visualize statistics through pie charts, box plots, tables, and correlation matrices. After selecting options and submitting, users can explore player statistics and compare multiple players using a dropdown menu. To access the webapp, select Batting Stats/ Bowling Stats and then click Submit button. To compare players, select player names in the dropdown and then click on Compare button")
+st.write("Ans: The web app focuses on IPL, a T20 cricket league in India, specifically analyzing data for the 2023 season. It provides insights into player performance, including the Orange Cap for most runs and the Purple Cap for most wickets. Users can select between Batting Stats and Bowling Stats, filter data by country, and visualize statistics through pie charts, box plots, tables, and correlation matrices. After selecting options and submitting, users can explore player statistics and compare multiple players using a dropdown menu. To access the webapp, select Batting Stats/ Bowling Stats and then click Submit button. To compare players, select player names in the dropdown and then click on Compare button.")
 
 
 
 st.markdown("**3. Any major 'gotchas' (i.e. things that don’t work, go slowly, could be improved, etc.):**")
-st.write("Ans: One potential issue is that when changing filter options after selecting players for comparison, the selected players are not automatically cleared. This functionality could be improved in future iterations. When we get the tables after clicking 'Submit', we can get the first column in coronological order, we can also add the name for the first column. When we click on the column name of the table, it is arranged in ascending or descending order. However if the column i highest score, it does not happen as highest score is a numeric value but it ends with '*' if the player is not out, so it is not stored as an integer")
+st.write("Ans: One potential issue is that when changing filter options after selecting players for comparison, the selected players are not automatically cleared. This functionality could be improved in future iterations. When we get the tables after clicking 'Submit', we can get the first column in coronological order, we can also add the name for the first column. When we click on the column name of the table, it is arranged in ascending or descending order. However if the column i highest score, it does not happen as highest score is a numeric value but it ends with '*' if the player is not out, so it is not stored as an integer.")
 
 
 
