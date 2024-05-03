@@ -20,7 +20,7 @@ st.write("Ans: One potential issue is that when changing filter options after se
 
 
 st.markdown("**4. What did you set out to study? (i.e. what was the point of your project? This should be close to your Milestone 1 assignment, but if you switched gears or changed things, note it here.)**")
-st.write("Ans: Initially, the project aimed to study the correlation between player auction prices and their performance metrics. However, due to limited data availability, the focus shifted to analyzing batting and bowling statistics for the 2023 IPL season. Data from sources such as API calls and CSV files were consolidated, and insights were drawn from player performances and comparisons.")
+st.write("Ans: Initially, the project aimed to study the correlation between player auction prices and their performance metrics. However, due to limited data availability, the focus shifted to analyzing batting and bowling statistics for the 2023 IPL season. Data from sources such as API calls, web scrapping of ESPN Cricinfo website and Kaggle 2023 IPL Auction Dataset were consolidated, and insights were drawn from player performances and comparisons.")
 
 
 
