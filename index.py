@@ -15,7 +15,7 @@ st.write("Ans: The web app focuses on IPL, a T20 cricket league in India, specif
 
 
 st.markdown("**3. Any major 'gotchas' (i.e. things that don’t work, go slowly, could be improved, etc.):**")
-st.write("Ans: One potential issue is that when changing filter options after selecting players for comparison, the selected players are not automatically cleared. This functionality could be improved in future iterations.")
+st.write("Ans: One potential issue is that when changing filter options after selecting players for comparison, the selected players are not automatically cleared. This functionality could be improved in future iterations. When we get the tables after clicking 'Submit', we can get the first column in coronological order, we can also add the name for the first column.")
 
 
 
